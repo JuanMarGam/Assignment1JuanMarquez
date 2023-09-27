@@ -1,0 +1,16 @@
+ /* Style the container to hold the columns */
+ .project-container {
+    display: flex;
+    justify-content: space-between; /* To evenly space the columns */
+}
+
+/* Style each individual project column */
+.project-column {
+    width: 30%;
+    text-align: center;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+}
