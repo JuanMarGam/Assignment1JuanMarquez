@@ -1,0 +1,56 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+<style>
+  /* Style the container to hold the columns */
+  .project-container {
+      display: flex;
+      justify-content: space-between; /* To evenly space the columns */
+  }
+
+  /* Style each individual project column */
+  .project-column {
+      width: 30%;
+      text-align: center;
+  }
+
+  .project-image {
+      max-width: 100%;
+      height: auto;
+  }
+</style>
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %> page</h1>
+    </div>
+     <!-- Project Container for Columns -->
+     <div class="project-container">
+      <!-- Project 1 -->
+      <div class="project-column">
+          <h2>Megaman 2D</h2>
+          <img class="project-image" src="project1-image.jpg" alt="Project 1 Image">
+          <p>In this project, I undertook the exciting challenge of re-developing a game level as part of a class assignment. The goal was to enhance the gameplay experience by revamping the level design, improving player engagement, and optimizing performance. I meticulously analyzed the original level, identified areas for improvement, and applied my game programming skills to bring a fresh and engaging perspective to the game. This project not only honed my level design and programming abilities but also provided valuable insights into the iterative process of game development.</p>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-column">
+          <h2>Project 2 Title</h2>
+          <img class="project-image" src="project2-image.jpg" alt="Project 2 Image">
+          <p>For my university graduation project, I conceptualized and developed an innovative Augmented Reality (AR) application that added a unique dimension to our graduation ceremony. This AR app allowed attendees to interact with digital elements overlaid on their physical surroundings, creating a memorable and immersive experience. Through extensive research, programming, and collaboration with peers, I successfully brought this project to life. It not only showcased my technical skills in AR development but also demonstrated my ability to adapt emerging technologies for real-world applications. This project marked a significant milestone in my academic journey, reflecting my passion for cutting-edge technology.</p>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-column">
+          <h2>Project 3 Title</h2>
+          <img class="project-image" src="project3-image.jpg" alt="Project 3 Image">
+          <p>In the rapidly evolving landscape of digital metaverses, I embarked on a creative endeavor to design and develop a captivating 3D scene within the Unity game engine. This project pushed the boundaries of my game programming expertise, as it required me to craft an immersive and interconnected virtual environment. I meticulously designed and coded the scene, ensuring that it seamlessly integrated with the metaverse's broader ecosystem. This endeavor not only allowed me to showcase my technical prowess but also highlighted my vision for creating engaging digital spaces. It represents my commitment to shaping the future of immersive online experiences, where users can explore, socialize, and engage within virtual worlds.</p>
+      </div>
+  </div>
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   
